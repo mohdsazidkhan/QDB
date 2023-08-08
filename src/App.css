@@ -1,0 +1,17 @@
+button, [type='button'], [type='reset'], [type='submit'] {
+    -webkit-appearance: button;
+    background-color: #1677ff;
+    background-image: none;
+}
+.editBtn{
+    background-color: #2781ff;
+}
+.editBtn:hover{
+    background-color: #115eca !important;
+}
+.deleteBtn{
+    background-color: rgb(255, 70, 70);
+}
+.deleteBtn:hover{
+    background-color: rgb(219, 38, 38) !important;
+}
