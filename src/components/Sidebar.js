@@ -13,7 +13,7 @@ const { Sider } = Layout;
 function Sidebar() {
   const navigate = useNavigate();
   const [selectedKeys, setSelectedKeys] = useState(
-    localStorage.getItem("selectedKeys") || ['blogs']
+    localStorage.getItem("selectedKeys") || ['dashboard']
   );
   const [openedKeys, setOpenKeys] = useState([]);
   const [user, setUser] = useState(null);
